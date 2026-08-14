@@ -111,7 +111,5 @@ signing {
 }
 
 tasks.javadoc {
-    if (JavaVersion.current().isJava9Compatible) {
-        (options as StandardJavadocDocletOptions).addBooleanOption("html5", true)
-    }
+    (options as StandardJavadocDocletOptions).addBooleanOption("html5", true)
 }

@@ -2,7 +2,7 @@
 awssdk = "2.53.0"
 log4j = "2.26.1"
 junit = "4.13.2"
-mysql = "26.7.0"
+mysql = "9.7.0"
 postgresql = "42.7.13"
 mariadb = "3.5.10"
 spotless = "8.9.0"
